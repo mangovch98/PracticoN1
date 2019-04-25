@@ -8,5 +8,7 @@ namespace APIpractico.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<APIpractico.Models.Sale> Sales { get; set; }
     }
 }

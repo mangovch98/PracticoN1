@@ -12,5 +12,7 @@ namespace APIpractico.Models
         {
 
         }
+
+        public System.Data.Entity.DbSet<APIpractico.Models.Product> Products { get; set; }
     }
 }
