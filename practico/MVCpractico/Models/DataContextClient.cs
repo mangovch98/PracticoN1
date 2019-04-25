@@ -7,5 +7,7 @@ namespace MVCpractico.Models
         public DataContextClient():base("DefaultConnection")
         {
     }
+
+        public System.Data.Entity.DbSet<MVCpractico.Models.Client> Clients { get; set; }
     }
 }

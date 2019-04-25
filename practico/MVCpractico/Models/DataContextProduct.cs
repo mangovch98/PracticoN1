@@ -13,5 +13,6 @@ namespace MVCpractico.Models
 
         }
 
+        public System.Data.Entity.DbSet<MVCpractico.Models.Product> Products { get; set; }
     }
 }

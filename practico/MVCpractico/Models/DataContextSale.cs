@@ -9,5 +9,6 @@ namespace MVCpractico.Models
 
         }
 
+        public System.Data.Entity.DbSet<MVCpractico.Models.Sale> Sales { get; set; }
     }
 }
